@@ -1,33 +1,139 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&family=Sanchez&display=swap");
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+.ant-input-search-button {
+  background-color: #036cff;
+}
+
+.ant-btn-primary {
+  background-color: #036cff;
+}
+
+.ant-table .ant-table-content {
+  scrollbar-width: none;
+  /* For Firefox */
+  -ms-overflow-style: none;
+  /* For Internet Explorer 10+ */
+}
+
+.ant-table .ant-table-content::-webkit-scrollbar {
+  display: none;
+  /* For WebKit browsers (Chrome, Safari, Edge) */
+}
+
+:root {
+  --primary-light-blue: #eafcff;
+  --primary-light-blue2: #036cff;
+  --primary-dark-blue1: #1874d0;
+  --primary-dark-blue2: #008bdc;
+  --primary-dark-blue3: #00a3e9;
+  --primary-dark-blue4: #79d1f7;
+  --primary-dark-blue5: #cfedf8;
+  --primary-green: #25c007;
+  --primary-white: #ffffff;
+  --primary-black: #333333;
+  --primary-orange1: #e7b852;
+  --primary-orange2: #f7dca7d7;
+  --primary-green1: #2ccc0b;
+  --primary-green2: #a9d8a093;
+}
+
+.custom-ant-select .ant-select-selector {
+  border: 0.5px solid #e5e7eb !important;
+  font-size: 0.75rem !important;
+  border-radius: 0.25rem !important;
+  color: #1e1f20 !important;
+  text-transform: capitalize;
+  width: fit-content;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+
+html {
+  --scroll-behavior: smooth !important;
+  scroll-behavior: smooth !important;
+}
+
+.hide-scrollbar {
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+  /* Firefox */
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  overflow: -moz-scrollbars-none;
+  /* Firefox */
+  -webkit-overflow-scrolling: touch;
+  /* iOS Safari */
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.br {
+  border: 2px solid red;
+}
+
+.brmore {
+  border: 4px solid red;
+}
+
+.bb {
+  border: 2px solid black;
+}
+
+.bbmore {
+  border: 4px solid black;
+}
+
+
+.IconWrapper {
+
+  @media (max-width: 768px) {
+    animation: keyframes 12s linear infinite;
+  }
+
+}
+
+@keyframes keyframes {
+  from {
+    transform: translateX(0%);
+  }
+
+  to {
+    transform: translateX(-100%);
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.WhatAppIcon {
+
+    animation: keyframesMove 3s ease-in-out infinite;
+
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+@keyframes keyframesMove {
+  0% {
+    transform: translateY(0%);
+  }
+
+  50% {
+    transform: translateY(-40px);
+  }
+
+  100% {
+    transform: translateY(0px);
   }
 }
