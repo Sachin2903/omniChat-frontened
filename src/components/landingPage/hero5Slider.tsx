@@ -67,7 +67,7 @@ const Hero5Slider = () => {
 
 
                     <section className="flex justify-center items-center md:gap-8 gap-3 mt-7 flex-wrap w-[90%]  mx-auto">
-                        <p className="text-base text-center md:text-lg font-semibold">If you can't find yours, we are always a click aways!</p>
+                        <p className="text-base text-center md:text-lg font-semibold">If you can&apos;t find yours, we are always a click aways!</p>
                         <button className="bg-black text-white text-sm  md:text-base  hover:bg-gray-700 transition-all duration-200 ease-in-out active:scale-[0.98] rounded-xl px-8 font-semibold py-2">Lets Talk</button>
                     </section>
 
@@ -100,7 +100,7 @@ const Hero5Slider = () => {
 
 
                     <section className="flex justify-center items-center md:gap-8 gap-3 mt-7 flex-wrap w-[90%]  mx-auto">
-                        <p className="text-base text-center md:text-lg font-semibold">If you can't find yours, we are always a click aways!</p>
+                        <p className="text-base text-center md:text-lg font-semibold">If you can&apos;t find yours, we are always a click aways!</p>
                         <button className="bg-black text-white text-sm  md:text-base  hover:bg-gray-700 transition-all duration-200 ease-in-out active:scale-[0.98] rounded-xl px-8 font-semibold py-2">Lets Talk</button>
                     </section>
 
@@ -137,7 +137,7 @@ const Hero5Slider = () => {
 
 
                     <section className="flex justify-center items-center md:gap-8 gap-3 mt-7 flex-wrap w-[90%]  mx-auto">
-                        <p className="text-base text-center md:text-lg font-semibold">If you can't find yours, we are always a click aways!</p>
+                        <p className="text-base text-center md:text-lg font-semibold">If you can&apos;t find yours, we are always a click aways!</p>
                         <button className="bg-black text-white text-sm  md:text-base  hover:bg-gray-700 transition-all duration-200 ease-in-out active:scale-[0.98] rounded-xl px-8 font-semibold py-2">Lets Talk</button>
                     </section>
 
@@ -181,7 +181,7 @@ const Hero5Slider = () => {
 
 
                     <section className="flex justify-center items-center md:gap-8 gap-3 mt-7 flex-wrap w-[90%]  mx-auto">
-                        <p className="text-base text-center md:text-lg font-semibold">If you can't find yours, we are always a click aways!</p>
+                        <p className="text-base text-center md:text-lg font-semibold">If you can&apos;t find yours, we are always a click aways!</p>
                         <button className="bg-black text-white text-sm  md:text-base  hover:bg-gray-700 transition-all duration-200 ease-in-out active:scale-[0.98] rounded-xl px-8 font-semibold py-2">Lets Talk</button>
                     </section>
 

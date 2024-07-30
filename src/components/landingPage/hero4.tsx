@@ -7,7 +7,7 @@ export default function Hero4() {
             <path d="M145 8L18 46.2468L53.6819 57.1391M145 8L53.6819 57.1391M145 8L129.481 85.5364L85.6075 69.2684M145 8L77.5931 66.2967M53.6819 57.1391L61.8116 96M77.5931 66.2967L61.8116 96M77.5931 66.2967L85.6075 69.2684M61.8116 96L85.6075 69.2684" stroke="#0A0E24" stroke-width="10" />
         </svg>
         <h5 className="md:text-2xl font-bold relative z-20 sm:text-xl text-lg text-center">Transform Your Customer Service With <span className="md:text-2xl relative z-20 sm:text-xl text-lg text-center font-extrabold">
-            <span className=" md:text-4xl relative z-20 sm:text-3xl text-2xl text-center ">Zoti's</span> Leading Solutions</span></h5>
+            <span className=" md:text-4xl relative z-20 sm:text-3xl text-2xl text-center ">Zoti&apos;s</span> Leading Solutions</span></h5>
         <Image className="absolute md:bottom-0 max-h-[80%] left-0 z-10" src={heo4Line} alt="zoti" />
 
 
