@@ -21,6 +21,7 @@ export default function Home() {
       <Hero2/>
       <Hero3/>
       <InfiniteScroll/>
+      
       <Hero4/>
       <Hero5 />
       <Hero6 />
